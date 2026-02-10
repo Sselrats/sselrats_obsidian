@@ -1,0 +1,2 @@
+
+claude mcp add --transport http figma https://mcp.figma.com/mcp

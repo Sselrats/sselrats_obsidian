@@ -1,6 +1,8 @@
 
  Staging Deployment Checklist
 
+
+
   1. AWS EC2 Setup
 
   - Create EC2 instance (Ubuntu 22.04 LTS recommended)
@@ -20,7 +22,11 @@
     - A record: admin-api.yourdomain.com → EC2 Elastic IP
     - (Optional) A record: staging.yourdomain.com → EC2 Elastic IP
 
-  3. EC2 Server Configuration
+  1. EC2 Server Configuration
+
+sudo apt update
+sudo apt upgrade
+
 ```null
 timedatectl
 sudo timedatectl set-timezone Asia/Seoul
@@ -49,9 +55,6 @@ wget -qO- https://get.pnpm.io/install.sh | sh -
 
 pnpm install pm2 -g
 
-sudo apt update
-sudo apt upgrade
-
 sudo apt install postgresql
 sudo service postgresql status
 
@@ -64,8 +67,26 @@ sudo apt update
 sudo apt-get install letsencrypt
 ```
 
+sudo apt update 
+sudo apt install certbot
+sudo apt install python3-certbot-nginx 
+
 staging.admin-api.loandoctor.co.kr
 sudo certbot certonly --nginx --cert-name staging.loandoctor.co.kr -d staging.loandoctor.co.kr -d staging.api.loandoctor.co.kr -d staging.admin.loandoctor.co.kr -d staging.admin-api.loandoctor.co.kr
+
+sudo certbot certonly --nginx --cert-name loandoctor.co.kr -d loandoctor.co.kr -d api.loandoctor.co.kr -d admin.loandoctor.co.kr -d admin-api.loandoctor.co.kr
+
+sudo certbot certonly --nginx --cert-name loandoctor.co.kr -d loandoctor.co.kr -d api.loandoctor.co.kr -d admin.loandoctor.co.kr -d admin-api.loandoctor.co.kr -d www.loandoctor.co.kr
+
+sudo certbot certonly --nginx --cert-name finbox24.com -d  finbox24.com -d  www.finbox24.com 
+sudo ln -s /etc/nginx/sites-available/finbox24.com /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+
+  6. SSL 설정 (Certbot)
+
+  # Certbot 설치
+  sudo apt install -y certbot python3-certbot-nginx
 
   - SSH into EC2
   - Install dependencies:

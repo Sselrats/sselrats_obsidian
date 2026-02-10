@@ -207,6 +207,10 @@ server {
 
 
 
+
+
+
+
  Nginx 설정 가이드 (EC2 Ubuntu)
 
   1. Nginx 설치
@@ -467,3 +471,68 @@ server {
   | 포트 리스닝      | sudo netstat -tlnp | grep nginx    |
   | SSL 인증서 유효  | sudo certbot certificates          |
   | 외부 접속 테스트 | curl -I https://api.yourdomain.com |
+
+
+
+
+
+
+\# Redirect HTTP to HTTPS (both domains)
+server {
+  listen 80;
+  server_name finbox24.com www.finbox24.com;
+  return 301 https://finbox24.com$request_uri;
+}
+
+\# Redirect www to non-www (HTTPS)
+server {
+  listen 443 ssl http2;
+  server_name www.finbox24.com;
+
+  ssl_certificate /etc/letsencrypt/live/finbox24.com/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/finbox24.com/privkey.pem;
+  include /etc/letsencrypt/options-ssl-nginx.conf;
+  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+  return 301 https://finbox24.com$request_uri;
+}
+
+\# Main server block
+server {
+  listen 443 ssl http2;
+  server_name finbox24.com;
+
+  \# SSL
+  ssl_certificate /etc/letsencrypt/live/finbox24.com/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/finbox24.com/privkey.pem;
+  include /etc/letsencrypt/options-ssl-nginx.conf;
+  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+  \# 보안 헤더
+  include snippets/security-headers.conf;
+
+  \# 로그
+  access_log /var/log/nginx/finbox24.com.access.log;
+  error_log /var/log/nginx/finbox24.com.error.log;
+
+  \# 파일 업로드 크기
+  client_max_body_size 50M;
+
+  location / {
+	  proxy_pass http://127.0.0.1:3000;
+	  proxy_http_version 1.1;
+
+	  proxy_set_header Upgrade $http_upgrade;
+	  proxy_set_header Connection 'upgrade';
+	  proxy_set_header Host $host;
+	  proxy_set_header X-Real-IP $remote_addr;
+	  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	  proxy_set_header X-Forwarded-Proto $scheme;
+
+	  proxy_connect_timeout 60s;
+	  proxy_send_timeout 60s;
+	  proxy_read_timeout 60s;
+
+	  proxy_cache_bypass $http_upgrade;
+  }
+}
