@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/gemini review.md",
+                "file": "26-1/한자와 동양문화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gemini review"
+              "title": "한자와 동양문화"
             }
           }
         ],
@@ -193,11 +193,11 @@
   },
   "active": "2fbcef6b903c845a",
   "lastOpenFiles": [
+    "dev/gemini review.md",
     "dev/setting.md",
     "dev/secret gen.md",
     "dev/postgres.md",
-    "dev/gemini review.md",
-    "26-1/한자와 동양문화/한자와 동양문화.md",
+    "26-1/한자와 동양문화.md",
     "dev",
     "Finbox24/0301.md",
     "26-1/한자와 동양문화",
