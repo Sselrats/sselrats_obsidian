@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "26-1/기계학습 개론.md",
+                "file": "26-1/기계학습 개론/기계학습 개론.md",
                 "mode": "source",
                 "source": false
               },
@@ -191,10 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75f92417bde68286",
+  "active": "2fbcef6b903c845a",
   "lastOpenFiles": [
+    "26-1/기계학습 개론",
+    "26-1/기계학습 개론/00_Orientation.pdf",
     "26-1/기계학습의 수학적 이론.md",
-    "26-1/기계학습 개론.md",
+    "26-1/기계학습 개론/기계학습 개론.md",
     "26-1/한자와 동양문화.md",
     "Finbox24/0301.md",
     "무제.md",
