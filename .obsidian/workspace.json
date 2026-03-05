@@ -34,9 +34,24 @@
               "icon": "lucide-file",
               "title": "기계학습의 수학적 이론"
             }
+          },
+          {
+            "id": "6885e4596ddcfaa2",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
+                "bFile": "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 기계학습의 수학적 이론"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,8 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75f92417bde68286",
+  "active": "6885e4596ddcfaa2",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
     "26-1/한자와 동양문화/한자와 동양문화.md",
     "dev/gemini review.md",
     "dev/git worktree.md",
@@ -202,7 +219,6 @@
     "dev/mcp.md",
     "dev/setting.md",
     "26-1/한자와 동양문화",
-    "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
     "26-1/기계학습의 수학적 이론",
     "26-1/기계학습 개론/기계학습 개론.md",
     "26-1/기계학습 개론",
