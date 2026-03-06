@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "1. Business process flowchart"
             }
+          },
+          {
+            "id": "2617fc0de23beca7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "기계학습의 수학적 이론"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,8 +191,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d3c25b05915bedb",
+  "active": "2617fc0de23beca7",
   "lastOpenFiles": [
+    "26-1/기계학습 개론/기계학습 개론.md",
+    "conflict-files-obsidian-git.md",
+    "Finbox24/1. Business process flowchart.md",
+    "26-1/한자와 동양문화/한자와 동양문화.md",
+    "26-1/한자와 동양문화",
+    "26-1/기계학습 개론/02_Linear_Classifiers.pdf",
+    "26-1/기계학습 개론/01_Introduction.pdf",
     "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
     "26-1/한자와 동양문화.md",
     "dev/setting.md",
@@ -188,7 +210,6 @@
     "dev/git worktree.md",
     "dev/gemini review.md",
     "dev",
-    "26-1/기계학습 개론/기계학습 개론.md",
     "26-1/기계학습 개론/00_Orientation.pdf",
     "26-1/기계학습의 수학적 이론",
     "26-1/기계학습 개론",
@@ -207,12 +228,8 @@
     "Finbox24/Pasted image 20260119191413.png",
     "Finbox24/4. Final Schema.md",
     "Finbox24/6. Admin API.md",
-    "Finbox24/5. API.md",
-    "Finbox24/3. DB structure and workflow.md",
-    "Finbox24/7. API-common.md",
     "Finbox24",
     "무제 폴더",
-    "Untitled.canvas",
-    "Untitled.base"
+    "Untitled.canvas"
   ]
 }
