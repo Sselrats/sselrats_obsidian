@@ -25,14 +25,15 @@
             "id": "2617fc0de23beca7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
-                "mode": "source",
-                "source": false
+                "aFile": "26-1/기계학습 개론/기계학습 개론.md",
+                "bFile": "26-1/기계학습 개론/기계학습 개론.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "기계학습의 수학적 이론"
+              "icon": "diff",
+              "title": "Diff: 기계학습 개론"
             }
           }
         ],
@@ -193,6 +194,7 @@
   },
   "active": "2617fc0de23beca7",
   "lastOpenFiles": [
+    "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
     "26-1/기계학습 개론/기계학습 개론.md",
     "conflict-files-obsidian-git.md",
     "Finbox24/1. Business process flowchart.md",
@@ -200,7 +202,6 @@
     "26-1/한자와 동양문화",
     "26-1/기계학습 개론/02_Linear_Classifiers.pdf",
     "26-1/기계학습 개론/01_Introduction.pdf",
-    "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
     "26-1/한자와 동양문화.md",
     "dev/setting.md",
     "dev/secret gen.md",
