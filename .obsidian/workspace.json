@@ -40,12 +40,14 @@
             "id": "024b201804d2f6ae",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "dev/postgres.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.12.4"
+              "icon": "lucide-file",
+              "title": "postgres"
             }
           }
         ],
@@ -206,6 +208,8 @@
   },
   "active": "024b201804d2f6ae",
   "lastOpenFiles": [
+    "dev/setting.md",
+    "dev/postgres.md",
     "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
     "26-1/기계학습 개론/기계학습 개론.md",
     "conflict-files-obsidian-git.md",
@@ -215,9 +219,7 @@
     "26-1/기계학습 개론/02_Linear_Classifiers.pdf",
     "26-1/기계학습 개론/01_Introduction.pdf",
     "26-1/한자와 동양문화.md",
-    "dev/setting.md",
     "dev/secret gen.md",
-    "dev/postgres.md",
     "dev/nginx.md",
     "dev/mcp.md",
     "dev/git worktree.md",
