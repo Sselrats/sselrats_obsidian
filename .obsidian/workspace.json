@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "26-1/한자와 동양문화/한자와 동양문화.md",
+                "file": "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "한자와 동양문화"
+              "title": "기계학습의 수학적 이론"
             }
           }
         ],
@@ -191,8 +191,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2fbcef6b903c845a",
+  "active": "024b201804d2f6ae",
   "lastOpenFiles": [
+    "26-1/한자와 동양문화/한자와 동양문화.md",
     "26-1/한자와 동양문화/0310_한자에 스며들다.pdf",
     "dev/postgres.md",
     "dev/setting.md",
@@ -200,7 +201,6 @@
     "26-1/기계학습 개론/기계학습 개론.md",
     "conflict-files-obsidian-git.md",
     "Finbox24/1. Business process flowchart.md",
-    "26-1/한자와 동양문화/한자와 동양문화.md",
     "26-1/한자와 동양문화",
     "26-1/기계학습 개론/02_Linear_Classifiers.pdf",
     "26-1/기계학습 개론/01_Introduction.pdf",
@@ -229,7 +229,6 @@
     "Finbox24/Pasted image 20260119191413.png",
     "Finbox24/4. Final Schema.md",
     "Finbox24",
-    "무제 폴더",
     "Untitled.canvas"
   ]
 }
