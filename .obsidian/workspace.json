@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finbox24/0301.md",
+                "file": "26-1/기계학습 개론/기계학습 개론.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0301"
+              "title": "기계학습 개론"
             }
           }
         ],
@@ -193,6 +193,8 @@
   },
   "active": "024b201804d2f6ae",
   "lastOpenFiles": [
+    "03_Features.pdf",
+    "Finbox24/0301.md",
     "26-1/기계학습의 수학적 이론/기계학습의 수학적 이론.md",
     "26-1/한자와 동양문화/한자와 동양문화.md",
     "26-1/한자와 동양문화/0312_한자의 기원과 탄생.pdf",
@@ -216,7 +218,6 @@
     "26-1/기계학습 개론/00_Orientation.pdf",
     "26-1/기계학습의 수학적 이론",
     "26-1/기계학습 개론",
-    "Finbox24/0301.md",
     "gemini review.md",
     "mcp.md",
     "setting.md",
